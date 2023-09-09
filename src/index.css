@@ -1,0 +1,20 @@
+:root {
+  --bg-color: #f0f0f0;
+  --primary-color: #E5D283;
+  --secondary-color: #4F709C;
+  --border-r: 5px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--bg-color);
+  width: 100%;
+  min-height: 100vh;
+}
